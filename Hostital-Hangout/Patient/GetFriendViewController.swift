@@ -15,6 +15,7 @@ import FirebaseDatabase
 
 class GetFriendViewController: UIViewController {
 
+    @IBOutlet var volunteerComing: UILabel!
     @IBOutlet var nameLabel: UILabel!
     var patient:Patient!
     var ref:DatabaseReference!
@@ -24,9 +25,11 @@ class GetFriendViewController: UIViewController {
     @IBAction func switchMoved(_ sender: Any) {
         if(mySwitch.isOn) {
             ref.child("users/\(UIDevice.current.identifierForVendor!.uuidString)/wantsVisitor").setValue(1)
+            volunteerComing.isHidden = false
         }
         else {
             ref.child("users/\(UIDevice.current.identifierForVendor!.uuidString)/wantsVisitor").setValue(0)
+            volunteerComing.isHidden = true
         }
     }
     
@@ -38,9 +41,13 @@ class GetFriendViewController: UIViewController {
         print(patientText)
         
         ref = Database.database().reference()
-    ref.child("users").child(UIDevice.current.identifierForVendor!.uuidString).setValue(["name":patient.name,"age":patient.age!,"hospital":patient.hospital!,"language":LanguageViewController.langToStr(lang: patient.language!),"roomNumber":patient.roomNumber!])
+        ref.child("users").child(UIDevice.current.identifierForVendor!.uuidString).setValue(["name":patient.name,"age":patient.age!,"hospital":patient.hospital!,"language":LanguageViewController.langToStr(lang: patient.language!),"roomNumber":patient.roomNumber!,"wantsVisitor":patient.wantsVisitor])
         
+        if(patient.wantsVisitor == 1) {
+            mySwitch.isOn = true
+        }
         nameLabel.text = "Hi " + patient.name + "!"
+        
 
         // Do any additional setup after loading the view.
     }

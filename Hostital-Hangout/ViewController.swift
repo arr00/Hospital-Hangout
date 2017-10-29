@@ -29,6 +29,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             let dest = segue.destination as! GetFriendViewController
             let patient = Patient(name: user!["name"] as! String, age: user!["age"] as! Int, hospital: user!["hospital"] as! String, language: LanguageViewController.strToLang(lang: user!["language"] as! String))
             patient.roomNumber = user!["roomNumber"] as! Int
+            patient.wantsVisitor = user!["wantsVisitor"] as! Int
             
             dest.patient = patient
         }
