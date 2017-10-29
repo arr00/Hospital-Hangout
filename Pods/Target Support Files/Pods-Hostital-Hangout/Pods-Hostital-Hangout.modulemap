@@ -1,0 +1,6 @@
+framework module Pods_Hostital_Hangout {
+  umbrella header "Pods-Hostital-Hangout-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30809A461FA6289F00AD03DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30809A451FA6289F00AD03DF /* GoogleService-Info.plist */; };
+		30809A4A1FA62F4A00AD03DF /* VolunteerSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30809A491FA62F4A00AD03DF /* VolunteerSignInViewController.swift */; };
+		30809A4C1FA639D000AD03DF /* PatientsAvailibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30809A4B1FA639D000AD03DF /* PatientsAvailibleViewController.swift */; };
 		30D8240A1FA59ACB001E946F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824091FA59ACB001E946F /* AppDelegate.swift */; };
 		30D8240C1FA59ACB001E946F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8240B1FA59ACB001E946F /* ViewController.swift */; };
-		30D8240F1FA59ACB001E946F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D8240D1FA59ACB001E946F /* Main.storyboard */; };
 		30D824111FA59ACB001E946F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D824101FA59ACB001E946F /* Assets.xcassets */; };
 		30D824141FA59ACB001E946F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D824121FA59ACB001E946F /* LaunchScreen.storyboard */; };
+		30D8241C1FA5ABD7001E946F /* Volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8241B1FA5ABD7001E946F /* Volunteer.swift */; };
+		30D8241E1FA5AF1A001E946F /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8241D1FA5AF1A001E946F /* Patient.swift */; };
+		30D824201FA5B950001E946F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D8241F1FA5B950001E946F /* Main.storyboard */; };
+		30D824221FA5B9DA001E946F /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824211FA5B9DA001E946F /* NameViewController.swift */; };
+		30D824241FA5B9E4001E946F /* HospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824231FA5B9E4001E946F /* HospitalViewController.swift */; };
+		30D824261FA5B9F8001E946F /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824251FA5B9F8001E946F /* LanguageViewController.swift */; };
+		30D824281FA5BA0C001E946F /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824271FA5BA0C001E946F /* AgeViewController.swift */; };
+		30D8242A1FA5BA3C001E946F /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824291FA5BA3C001E946F /* RoomViewController.swift */; };
+		30D8242C1FA5C231001E946F /* GetFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8242B1FA5C231001E946F /* GetFriendViewController.swift */; };
+		4C3DDDE912F427A7C57AD8E5 /* Pods_Hostital_Hangout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0164FEE6FFF17FA64E76102D /* Pods_Hostital_Hangout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0164FEE6FFF17FA64E76102D /* Pods_Hostital_Hangout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hostital_Hangout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30809A451FA6289F00AD03DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30809A491FA62F4A00AD03DF /* VolunteerSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSignInViewController.swift; sourceTree = "<group>"; };
+		30809A4B1FA639D000AD03DF /* PatientsAvailibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsAvailibleViewController.swift; sourceTree = "<group>"; };
 		30D824061FA59ACA001E946F /* Hostital-Hangout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hostital-Hangout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D824091FA59ACB001E946F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D8240B1FA59ACB001E946F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30D8240E1FA59ACB001E946F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30D824101FA59ACB001E946F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D824131FA59ACB001E946F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30D824151FA59ACB001E946F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D8241B1FA5ABD7001E946F /* Volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volunteer.swift; sourceTree = "<group>"; };
+		30D8241D1FA5AF1A001E946F /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		30D8241F1FA5B950001E946F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		30D824211FA5B9DA001E946F /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		30D824231FA5B9E4001E946F /* HospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
+		30D824251FA5B9F8001E946F /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		30D824271FA5BA0C001E946F /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		30D824291FA5BA3C001E946F /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		30D8242B1FA5C231001E946F /* GetFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFriendViewController.swift; sourceTree = "<group>"; };
+		A90F8A499BB3E03890D58679 /* Pods-Hostital-Hangout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hostital-Hangout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hostital-Hangout/Pods-Hostital-Hangout.release.xcconfig"; sourceTree = "<group>"; };
+		AF6CB60F3FB04E83C2FF5303 /* Pods-Hostital-Hangout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hostital-Hangout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hostital-Hangout/Pods-Hostital-Hangout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3DDDE912F427A7C57AD8E5 /* Pods_Hostital_Hangout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20F5ADDB7557200E1DA9F81B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0164FEE6FFF17FA64E76102D /* Pods_Hostital_Hangout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30809A471FA62EDB00AD03DF /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				30D8241D1FA5AF1A001E946F /* Patient.swift */,
+				30D824211FA5B9DA001E946F /* NameViewController.swift */,
+				30D824231FA5B9E4001E946F /* HospitalViewController.swift */,
+				30D824251FA5B9F8001E946F /* LanguageViewController.swift */,
+				30D824271FA5BA0C001E946F /* AgeViewController.swift */,
+				30D824291FA5BA3C001E946F /* RoomViewController.swift */,
+				30D8242B1FA5C231001E946F /* GetFriendViewController.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		30809A481FA62F0800AD03DF /* Voluneer */ = {
+			isa = PBXGroup;
+			children = (
+				30D8241B1FA5ABD7001E946F /* Volunteer.swift */,
+				30809A491FA62F4A00AD03DF /* VolunteerSignInViewController.swift */,
+				30809A4B1FA639D000AD03DF /* PatientsAvailibleViewController.swift */,
+			);
+			path = Voluneer;
+			sourceTree = "<group>";
+		};
 		30D823FD1FA59ACA001E946F = {
 			isa = PBXGroup;
 			children = (
 				30D824081FA59ACA001E946F /* Hostital-Hangout */,
 				30D824071FA59ACA001E946F /* Products */,
+				A7A948363AF298236830D817 /* Pods */,
+				20F5ADDB7557200E1DA9F81B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +115,26 @@
 		30D824081FA59ACA001E946F /* Hostital-Hangout */ = {
 			isa = PBXGroup;
 			children = (
+				30809A481FA62F0800AD03DF /* Voluneer */,
+				30809A471FA62EDB00AD03DF /* Patient */,
 				30D824091FA59ACB001E946F /* AppDelegate.swift */,
 				30D8240B1FA59ACB001E946F /* ViewController.swift */,
-				30D8240D1FA59ACB001E946F /* Main.storyboard */,
+				30D8241F1FA5B950001E946F /* Main.storyboard */,
 				30D824101FA59ACB001E946F /* Assets.xcassets */,
 				30D824121FA59ACB001E946F /* LaunchScreen.storyboard */,
 				30D824151FA59ACB001E946F /* Info.plist */,
+				30809A451FA6289F00AD03DF /* GoogleService-Info.plist */,
 			);
 			path = "Hostital-Hangout";
+			sourceTree = "<group>";
+		};
+		A7A948363AF298236830D817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6CB60F3FB04E83C2FF5303 /* Pods-Hostital-Hangout.debug.xcconfig */,
+				A90F8A499BB3E03890D58679 /* Pods-Hostital-Hangout.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30D824181FA59ACB001E946F /* Build configuration list for PBXNativeTarget "Hostital-Hangout" */;
 			buildPhases = (
+				5F45099834D999B459027D5E /* [CP] Check Pods Manifest.lock */,
 				30D824021FA59ACA001E946F /* Sources */,
 				30D824031FA59ACA001E946F /* Frameworks */,
 				30D824041FA59ACA001E946F /* Resources */,
+				953BD8C0BDB3CF65890256C8 /* [CP] Embed Pods Frameworks */,
+				165F09743D90DEEB38484D7E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +199,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D824201FA5B950001E946F /* Main.storyboard in Resources */,
+				30809A461FA6289F00AD03DF /* GoogleService-Info.plist in Resources */,
 				30D824141FA59ACB001E946F /* LaunchScreen.storyboard in Resources */,
 				30D824111FA59ACB001E946F /* Assets.xcassets in Resources */,
-				30D8240F1FA59ACB001E946F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165F09743D90DEEB38484D7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hostital-Hangout/Pods-Hostital-Hangout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F45099834D999B459027D5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hostital-Hangout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		953BD8C0BDB3CF65890256C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hostital-Hangout/Pods-Hostital-Hangout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hostital-Hangout/Pods-Hostital-Hangout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30D824021FA59ACA001E946F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30809A4C1FA639D000AD03DF /* PatientsAvailibleViewController.swift in Sources */,
 				30D8240C1FA59ACB001E946F /* ViewController.swift in Sources */,
+				30D8241E1FA5AF1A001E946F /* Patient.swift in Sources */,
+				30809A4A1FA62F4A00AD03DF /* VolunteerSignInViewController.swift in Sources */,
+				30D824241FA5B9E4001E946F /* HospitalViewController.swift in Sources */,
+				30D8242C1FA5C231001E946F /* GetFriendViewController.swift in Sources */,
 				30D8240A1FA59ACB001E946F /* AppDelegate.swift in Sources */,
+				30D8241C1FA5ABD7001E946F /* Volunteer.swift in Sources */,
+				30D824261FA5B9F8001E946F /* LanguageViewController.swift in Sources */,
+				30D8242A1FA5BA3C001E946F /* RoomViewController.swift in Sources */,
+				30D824281FA5BA0C001E946F /* AgeViewController.swift in Sources */,
+				30D824221FA5B9DA001E946F /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30D8240D1FA59ACB001E946F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				30D8240E1FA59ACB001E946F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		30D824121FA59ACB001E946F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,13 +409,14 @@
 		};
 		30D824191FA59ACB001E946F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6CB60F3FB04E83C2FF5303 /* Pods-Hostital-Hangout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38LY6EZ4D5;
 				INFOPLIST_FILE = "Hostital-Hangout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AGApps.Hostital-Hangout";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AGApps.Hospital-Hangout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +425,14 @@
 		};
 		30D8241A1FA59ACB001E946F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90F8A499BB3E03890D58679 /* Pods-Hostital-Hangout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38LY6EZ4D5;
 				INFOPLIST_FILE = "Hostital-Hangout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AGApps.Hostital-Hangout";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AGApps.Hospital-Hangout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
