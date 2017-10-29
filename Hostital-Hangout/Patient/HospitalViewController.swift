@@ -11,7 +11,7 @@ import UIKit
 class HospitalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     
-    var hospitals = ["Ama","few ", "few"]
+    var hospitals = ["Columbia Medical Center","Mount Sinai Hospital", "Lenox Hill Hospital", "Gracie Square Hospital"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

@@ -16,7 +16,7 @@ class LanguageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     var patient:Patient!
     
     @IBOutlet var picker: UIPickerView!
-    let languages = [Language.spanish,Language.english]
+    let languages = [Language.english,Language.spanish,Language.chinese]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +47,8 @@ class LanguageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
                 return "English"
             case .spanish:
                 return "Spanish"
+            case .chinese:
+                return "Chinese"
         }
     }
     public static func strToLang(lang:String) -> Language {
@@ -55,6 +57,8 @@ class LanguageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
             return .english
         case "Spanish":
             return .spanish
+        case "Chinese":
+            return .chinese
         default:
             return .english
         }

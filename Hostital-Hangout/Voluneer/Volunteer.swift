@@ -52,6 +52,7 @@ class Volunteer:NSObject, CLLocationManagerDelegate {
 enum Language {
     case english
     case spanish
+    case chinese
 }
 
 

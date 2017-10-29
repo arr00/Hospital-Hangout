@@ -10,6 +10,8 @@
 		30809A461FA6289F00AD03DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30809A451FA6289F00AD03DF /* GoogleService-Info.plist */; };
 		30809A4A1FA62F4A00AD03DF /* VolunteerSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30809A491FA62F4A00AD03DF /* VolunteerSignInViewController.swift */; };
 		30809A4C1FA639D000AD03DF /* PatientsAvailibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30809A4B1FA639D000AD03DF /* PatientsAvailibleViewController.swift */; };
+		30809A4E1FA64D1200AD03DF /* PatientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30809A4D1FA64D1200AD03DF /* PatientTableViewCell.swift */; };
+		30809A501FA6547200AD03DF /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30809A4F1FA6547200AD03DF /* ConfirmationViewController.swift */; };
 		30D8240A1FA59ACB001E946F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D824091FA59ACB001E946F /* AppDelegate.swift */; };
 		30D8240C1FA59ACB001E946F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8240B1FA59ACB001E946F /* ViewController.swift */; };
 		30D824111FA59ACB001E946F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D824101FA59ACB001E946F /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		30809A451FA6289F00AD03DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30809A491FA62F4A00AD03DF /* VolunteerSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSignInViewController.swift; sourceTree = "<group>"; };
 		30809A4B1FA639D000AD03DF /* PatientsAvailibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientsAvailibleViewController.swift; sourceTree = "<group>"; };
+		30809A4D1FA64D1200AD03DF /* PatientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientTableViewCell.swift; sourceTree = "<group>"; };
+		30809A4F1FA6547200AD03DF /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 		30D824061FA59ACA001E946F /* Hostital-Hangout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hostital-Hangout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D824091FA59ACB001E946F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D8240B1FA59ACB001E946F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				30D8241B1FA5ABD7001E946F /* Volunteer.swift */,
 				30809A491FA62F4A00AD03DF /* VolunteerSignInViewController.swift */,
 				30809A4B1FA639D000AD03DF /* PatientsAvailibleViewController.swift */,
+				30809A4D1FA64D1200AD03DF /* PatientTableViewCell.swift */,
+				30809A4F1FA6547200AD03DF /* ConfirmationViewController.swift */,
 			);
 			path = Voluneer;
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30809A501FA6547200AD03DF /* ConfirmationViewController.swift in Sources */,
 				30809A4C1FA639D000AD03DF /* PatientsAvailibleViewController.swift in Sources */,
 				30D8240C1FA59ACB001E946F /* ViewController.swift in Sources */,
 				30D8241E1FA5AF1A001E946F /* Patient.swift in Sources */,
+				30809A4E1FA64D1200AD03DF /* PatientTableViewCell.swift in Sources */,
 				30809A4A1FA62F4A00AD03DF /* VolunteerSignInViewController.swift in Sources */,
 				30D824241FA5B9E4001E946F /* HospitalViewController.swift in Sources */,
 				30D8242C1FA5C231001E946F /* GetFriendViewController.swift in Sources */,
@@ -415,6 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38LY6EZ4D5;
 				INFOPLIST_FILE = "Hostital-Hangout/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AGApps.Hospital-Hangout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38LY6EZ4D5;
 				INFOPLIST_FILE = "Hostital-Hangout/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AGApps.Hospital-Hangout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
