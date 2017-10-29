@@ -27,8 +27,10 @@ class AgeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let dest = segue.destination as! GetFriendViewController
-        dest.patient = patient
+        if let dest = segue.destination as? GetFriendViewController {
+            dest.patient = patient
+        }
+        
     }
     
 

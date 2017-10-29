@@ -51,8 +51,10 @@ class HospitalViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let dest = segue.destination as! RoomViewController
-        dest.patient = patient
+        if let dest = segue.destination as? RoomViewController {
+            dest.patient = patient
+        }
+        
     }
     
     /*

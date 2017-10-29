@@ -95,8 +95,11 @@ class PatientsAvailibleViewController: UIViewController, UITableViewDelegate,UIT
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let dest = segue.destination as! ConfirmationViewController
-        dest.patient = availiblePatients[selectedRow]
+        
+        if let dest = segue.destination as? ConfirmationViewController {
+            dest.patient = availiblePatients[selectedRow]
+        }
+        
     }
 
     /*

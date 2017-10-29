@@ -65,8 +65,10 @@ class LanguageViewController: UIViewController, UIPickerViewDelegate, UIPickerVi
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let dest = segue.destination as! AgeViewController
-        dest.patient = patient
+        if let dest = segue.destination as? AgeViewController {
+            dest.patient = patient
+        }
+        
     }
     
 
