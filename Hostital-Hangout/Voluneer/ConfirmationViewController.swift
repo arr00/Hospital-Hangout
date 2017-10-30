@@ -24,7 +24,7 @@ class ConfirmationViewController: UIViewController {
         nameLabel.text = "Visit to " + patient.name
         hospitalLabel.text = "Hospital: " + patient.hospital!
         ageLabel.text = "Age: " + String(patient.age!)
-        languageLabel.text = "Hospital: " +  LanguageViewController.langToStr(lang: patient.language!)
+        languageLabel.text = "Language: " +  LanguageViewController.langToStr(lang: patient.language!)
         // Do any additional setup after loading the view.
     }
 
